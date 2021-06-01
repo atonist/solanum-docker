@@ -1,4 +1,5 @@
-....
+Run with: 
+
 docker run -d \
     -p 5000:5000 \
     -p 6665-6669:6665-6669 \
@@ -8,4 +9,3 @@ docker run -d \
     -v /location/to/solanum/certs/:/certs \
     -v /location/to/solanum/logs:/usr/local/logs \
     dbrown786/solanum-git:latest
-....
